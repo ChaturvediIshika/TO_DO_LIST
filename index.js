@@ -1,4 +1,5 @@
-themes = document.querySelectorAll('[name="theme"]');
+
+      themes = document.querySelectorAll('[name="theme"]');
       themes.forEach((theme) => {
         theme.addEventListener("click", () => store(theme));
       });
@@ -68,26 +69,6 @@ themes = document.querySelectorAll('[name="theme"]');
             }
         });
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
